@@ -1,0 +1,106 @@
+/*Colours and fonts*/
+
+body {
+	background-color:#F0F5F9;
+	color:rgb(50 50 50);
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	color :#1D3461;
+	font-family: 'Recursive', sans-serif;
+	font-size: 40px;
+}
+
+h2{
+	color :#1D3461;
+	font-size: 25px;
+	font-family: 'Recursive', sans-serif;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color:#A9D3FF;
+	font-weight: bolder;	
+}
+
+a:hover {
+	color:#D387AB;
+}
+
+
+/*custom design with class and id*/
+ .container{
+	width: 900px;
+	margin: 40px auto;
+}
+
+.card-white{
+    background-color: white;
+    padding: 27px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.05);
+	text-align: center; 
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+
+.list-inline i{
+	font-size: 70px;
+}
+
+.btn-blue{
+	background-color: #A9D3FF;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+
+.btn-blue:hover {
+	background-color: #D387AB;
+	color:white;
+}
+
+#uxui p{
+	margin-bottom: 30px;
+}
+
+#profile-img-circle{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: 10% 5px;
+	border-radius: 50%;
+}
+
+
+
+/*divices*/
+@media (max-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px){
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: fit-content;
+	}
+}
